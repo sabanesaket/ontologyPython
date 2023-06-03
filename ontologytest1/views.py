@@ -2,8 +2,8 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.conf import settings
-from django.contrib.auth.models import User
-from django.contrib.auth.views import LoginView
+# from django.contrib.auth.models import User
+# from django.contrib.auth.views import LoginView
 from django.http import HttpResponse
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
@@ -12,7 +12,7 @@ from owlready2 import ThingClass
 
 def getData():
     # Import the OWL ontology file.
-    ontology = owlready2.get_ontology("C://Users//andro//Desktop//Final.owl").load()
+    ontology = owlready2.get_ontology("C://Users//admin//ontologyPython//Final.owl").load()
     # print(ontology)
 
     # Parse the OWL ontology file.
@@ -46,3 +46,5 @@ def index(request):
 
 def about(request):
     return render(request, 'about.html')
+
+

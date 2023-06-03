@@ -1,0 +1,511 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-7="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#hasButton -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#hasButton">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#isButtonOn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#hasField -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#hasField">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#isFieldOn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#hasPersona -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#hasPersona">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#isPersonaOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#hasScreen -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#hasScreen">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#isScreenOn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#isButtonOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#isButtonOn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#isFieldOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#isFieldOn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#isPersonaOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#isPersonaOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#isScreenOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#isScreenOn"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Action -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Action"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Answer -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Answer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Comment -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Comment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Concept -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Concept"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Description"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Question -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Question"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#TaskDesc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#TaskDesc"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Button -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Button">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#screen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#FAQ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#FAQ"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Field -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Field">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#screen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Persona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Persona"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#screen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#screen"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_book -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_book">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#screen"/>
+        <hasButton rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Cancel"/>
+        <hasButton rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Submit"/>
+        <hasField rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Author"/>
+        <hasField rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Book_number"/>
+        <hasField rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#ISBN"/>
+        <hasField rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Publisher"/>
+        <hasField rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Title"/>
+        <hasField rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Year_of_publication"/>
+        <hasField rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#pagination"/>
+        <hasPersona rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Staff"/>
+        <isScreenOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#tcworld_Library"/>
+        <Concept>Library hosts a wide range of information resources and members connect with the library to acquire the information. Adding books to the library serves multiple purposes. It creates a database to maintain details of the borrowed items, it helps searching the book that members are looking for, and if hosted online, it helps attracting new members to the library. This feature of tcworld library helps you to add books to your database.</Concept>
+        <TaskDesc>To add a book in tcworld Library collection, follow these steps.</TaskDesc>
+        <rdfs:label>Add a book</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_member -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_member">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#screen"/>
+        <hasButton rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Cancel"/>
+        <hasButton rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Submit"/>
+        <hasField rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Address"/>
+        <hasField rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Member_name"/>
+        <hasField rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Membership_number"/>
+        <hasPersona rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Staff"/>
+        <isScreenOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#tcworld_Library"/>
+        <Concept>Adding members is a crucial activity in library operations. When you enroll members, you need their details like their names, addresses, the unique identity number of the library to distinguish them from other members in case of any similarity in any of the details. This feature of tcworld library helps you to add this information to the members database.</Concept>
+        <TaskDesc>To add a member to STC Library, follow these steps:</TaskDesc>
+        <rdfs:label>Add a member</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Address -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Address">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Field"/>
+        <isFieldOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_member"/>
+        <Action>Enter address of the new library member. 
+Note: If you have connected to LibSystem to GPS, you can pickup address from Google Maps also.</Action>
+        <Description>Address of the library member.</Description>
+        <rdfs:label>Address</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Author -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Author">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Field"/>
+        <isFieldOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_book"/>
+        <isFieldOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Search_catalogue"/>
+        <Action>Enter the name of the author.</Action>
+        <Description>Name of the author of the book.</Description>
+        <rdfs:label>Author</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Book_number -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Book_number">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Field"/>
+        <isFieldOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_book"/>
+        <isFieldOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Check-out"/>
+        <Action>Enter the unique number for the book.</Action>
+        <Description>Every library gives a unique number to each reading item procured. Book number holds such a unique inventory number. While refering to a copy of a book, this number is referenced.</Description>
+        <rdfs:label>Book number</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Cancel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Cancel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Button"/>
+        <isButtonOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_book"/>
+        <isButtonOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_member"/>
+        <isButtonOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Check-out"/>
+        <isButtonOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Search_catalogue"/>
+        <Action>To clear the form without any other action, click Clear.</Action>
+        <Description>Clears the form without saving or retrieving any details.</Description>
+        <rdfs:label>Cancel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Check-out -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Check-out">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#screen"/>
+        <hasButton rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Cancel"/>
+        <hasButton rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Submit"/>
+        <hasField rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Book_number"/>
+        <hasField rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Membership_number"/>
+        <hasPersona rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Staff"/>
+        <isScreenOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#tcworld_Library"/>
+        <Concept>Circulation of reading materials is an integral part of any library. That involves, issuing or checking-out of an item, returning or checking in, and renewing borrowed items. To issue a book, what you need is the book number and membership number. Check-out feature of STC library helps you to handle issuing of reading material to the members.</Concept>
+        <TaskDesc>To check-out a library item, follow these steps.</TaskDesc>
+        <rdfs:label>Check-Out</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#FAQ1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#FAQ1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#FAQ"/>
+        <Answer>ISBN stands for International Standard Book Number. It has either 10 or 13 digits. It is uniques for a combination of Title, Author, Publisher, and Edition.</Answer>
+        <Question>What is ISBN?</Question>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#FAQ2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#FAQ2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#FAQ"/>
+        <Answer>Title, many times, is also called as name of the book. You can use Title field to enter name of the book.</Answer>
+        <Question>Where do I enter name of the book that I am looking for?</Question>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#FAQ3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#FAQ3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#FAQ"/>
+        <Answer>Catalog is a searching aid through library holdings.</Answer>
+        <Question>What is Catalog?</Question>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#ISBN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#ISBN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Field"/>
+        <isFieldOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_book"/>
+        <isFieldOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Search_catalogue"/>
+        <Action>Enter ISBN of the book.</Action>
+        <Description>ISBN stands for International Standard Book Number. This number is constant for a particular edition of a book.</Description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Member -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Member">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Persona"/>
+        <isPersonaOf rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Search_catalogue"/>
+        <rdfs:label>Member</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Member_name -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Member_name">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Field"/>
+        <isFieldOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_member"/>
+        <Action>Enter name of the member in Last name, First name fashion.</Action>
+        <Description>Name of the member of library.</Description>
+        <rdfs:label>Member name</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Membership_number -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Membership_number">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Field"/>
+        <isFieldOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_member"/>
+        <isFieldOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Check-out"/>
+        <Action>Enter membership number that is allocated to the member as per memebership form.</Action>
+        <Description>A unique identification number allocated to the member that distinguishes an individual member from others.</Description>
+        <rdfs:label>Membership number</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Publisher -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Publisher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Field"/>
+        <isFieldOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_book"/>
+        <isFieldOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Search_catalogue"/>
+        <Action>Enter the publisher details.</Action>
+        <Description>Details of the publisher of the book. It could also contain the geography in which the book is published.</Description>
+        <rdfs:label>Publisher</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Search -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Search">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Button"/>
+        <hasPersona rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Member"/>
+        <isButtonOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Search_catalogue"/>
+        <Action>To search the items matching the keyword that you entered, click Search.</Action>
+        <Description>Displays the items matching your query on the screen.</Description>
+        <rdfs:label>Search</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Search_catalogue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Search_catalogue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#screen"/>
+        <hasButton rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Cancel"/>
+        <hasButton rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Search"/>
+        <hasField rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Author"/>
+        <hasField rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#ISBN"/>
+        <hasField rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Publisher"/>
+        <hasField rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Title"/>
+        <hasPersona rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Member"/>
+        <isScreenOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#tcworld_Library"/>
+        <Concept>Members and visitors of the library want to see the collection of library. However, all the books, periodicals, and other material may not available on shelf all the time. Library catalogue is best place to look for the collection. This feature of tcworld Library allows you to search the information items of your interest.</Concept>
+        <rdfs:label>Search catalogue</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Staff -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Staff">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Persona"/>
+        <isPersonaOf rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_book"/>
+        <isPersonaOf rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_member"/>
+        <isPersonaOf rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Check-out"/>
+        <rdfs:label>Staff</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Submit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Submit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Button"/>
+        <isButtonOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_book"/>
+        <isButtonOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_member"/>
+        <isButtonOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Check-out"/>
+        <Action>To add the details entered on the screen, click Submit.</Action>
+        <Description>Adds the record to library system.</Description>
+        <rdfs:label>Submit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Title -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Title">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Field"/>
+        <isFieldOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_book"/>
+        <isFieldOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Search_catalogue"/>
+        <Action>Enter title of the book by omitting any articles at the beginning of it.</Action>
+        <Description>Title of the book. You can omit any articles in the beginning of the book. Also, you can add the subtitle by separating it with &quot;: &quot; from the main title of the book. for example, &quot;What Works When with Children and Adolescents: Handbook of Individual Counseling Techniques&quot;</Description>
+        <rdfs:label>Title</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Year_of_publication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Year_of_publication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Field"/>
+        <isFieldOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_book"/>
+        <Action>Enter year of publication of the book.</Action>
+        <Description>Every title and edition of the title has a year of publication that distinguishes it from other editions either by the same publisher or a different one.</Description>
+        <rdfs:label>Year of publication</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#pagination -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#pagination">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Field"/>
+        <isFieldOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Add_a_book"/>
+        <Action>Enter the total number of pages in the form of initial pages and the pages of the main text of the book. For example, xii+256.</Action>
+        <Description>Total number of pages in the book.</Description>
+        <rdfs:label>pagination</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#tcworld_Library -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#tcworld_Library">
+        <hasField rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Year_of_publication"/>
+        <isScreenOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#tcworld_Library"/>
+        <rdfs:label>STC Library</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label>Library</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
