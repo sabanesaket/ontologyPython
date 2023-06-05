@@ -1,0 +1,15 @@
+{% extends 'ontologytest1/basic.html' %}
+
+{% block title %} FAQ {% endblock %}
+  
+{% block body %}
+  <div class="container my-4">
+      <h1>Frequently Asked Questions</h1>
+          {% for question,answer in data.items %}
+              <details>
+                  <summary>{{question}}</summary>
+                  <p>{{answer}}</p>
+              </details>
+          {% endfor %}
+  </div>
+{% endblock %}

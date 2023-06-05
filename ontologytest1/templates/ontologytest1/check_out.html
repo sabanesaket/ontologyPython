@@ -1,0 +1,18 @@
+{% extends 'ontologytest1/basic.html' %}
+{% block title %} Check Out {% endblock %}
+
+{% block body %}
+    <div class="container my-4">
+        <h1>{{data.label}}</h1>
+        <p>{{data.concept}}</p>
+        <p>{{data.task_desc}}</p>
+        <ol>
+            {% for task in data.tasks %}
+            <li>{{task}}</li>
+            {% endfor %}
+            {% for button in data.tasksButtons %}
+            <li>{{button}}</li>
+            {% endfor %}
+        </ol>
+    </div>
+{% endblock %}

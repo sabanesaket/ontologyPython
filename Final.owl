@@ -414,6 +414,7 @@ Note: If you have connected to LibSystem to GPS, you can pickup address from Goo
         <hasPersona rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#Member"/>
         <isScreenOn rdf:resource="http://www.semanticweb.org/anant.sabane01/ontologies/2020/1/untitled-ontology-7#tcworld_Library"/>
         <Concept>Members and visitors of the library want to see the collection of library. However, all the books, periodicals, and other material may not available on shelf all the time. Library catalogue is best place to look for the collection. This feature of tcworld Library allows you to search the information items of your interest.</Concept>
+        <TaskDesc>To check-out a library item, follow these steps.</TaskDesc>
         <rdfs:label>Search catalogue</rdfs:label>
     </owl:NamedIndividual>
     

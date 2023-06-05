@@ -1,0 +1,32 @@
+{% extends 'ontologytest1/basic.html' %}
+{% block title %} Glossary {% endblock %}
+
+{% block body %}
+    <div class="container my-4">
+        <h1>Glossary</h1>
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th scope="col">Term</th>
+                <th scope="col">Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for field_label_desc in data.field_label_description_list %}
+                <tr>
+                    {% for entry in field_label_desc %}
+                    <td>{{entry}}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+            {% for button_label_desc in data.button_label_description_list %}
+                <tr>
+                    {% for entry in button_label_desc %}
+                    <td>{{entry}}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
